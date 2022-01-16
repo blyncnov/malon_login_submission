@@ -4,7 +4,7 @@ Open the link [https://malon-login-submission.vercel.app](https://malon-login-su
 
 ### `This project was built on`
 Html\
-Css\
+Css
 
 
 ### `How to run project`
