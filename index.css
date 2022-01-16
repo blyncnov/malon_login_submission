@@ -76,7 +76,7 @@ body {
 }
 
 input {
-  height: 7vh;
+  height: 40px;
   width: 95%;
   padding: 0 0.5em;
   transition: all 0.3s ease-in;
