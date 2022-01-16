@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Helvetica Neue";
+}
+
+/* ____________ Navbar Style________________ */
+
+.nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo__container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  /* background-color: red; */
+  padding: 1em 0;
+}
+
+.logo {
+  font-weight: 800;
+  color: blue;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* ____________ container Style________________ */
+
+.conatiner {
+  width: 100%;
+}
+
+.max__width {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.rows {
+  flex-basis: 50%;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 70vh;
+}
+
+/* ____________ Text Style________________ */
+
+.login__texts h1 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+  color: blue;
+}
+
+.login__texts h6 {
+  font-size: 12px;
+  color: grey;
+}
+
+.input__box {
+  width: 100%;
+  margin: 1em 0;
+}
+
+input {
+  height: 7vh;
+  width: 95%;
+  padding: 0 0.5em;
+  transition: all 0.3s ease-in;
+  outline: none;
+  border-right: 0.5px solid grey;
+  border-top: 0.5px solid grey;
+  border-bottom: 0.5px solid grey;
+  box-shadow: rgba(243, 243, 243, 0.25) 0px 6px 12px -2px,
+    rgba(190, 190, 190, 0.3) 0px 3px 7px -3px;
+}
+
+input:focus {
+  color: blue;
+}
+
+input:hover {
+  border-left: 3px solid blue;
+}
+
+.remember__me {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.remember__me__one {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  width: auto;
+}
+
+.button__container,
+.link__rows {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+button {
+  padding: 1em 2em;
+  color: white;
+  background-color: blue;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+  box-shadow: rgba(204, 204, 204, 0.25) 0px 6px 12px -2px,
+    rgba(214, 214, 214, 0.3) 0px 3px 7px -3px;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid blue;
+  color: blue;
+  border-radius: 2px;
+}
+
+.transparent__button {
+  background-color: transparent;
+  border: 2px solid blue;
+  color: blue;
+  border-radius: 2px;
+}
+
+.transparent__button:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* _________Rows Image Section_______________ */
+.fixure {
+  background-color: #e5e5e569;
+  align-self: center;
+}
+
+.rows img {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .max__width {
+    flex-direction: column;
+  }
+
+  .login__texts h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+    color: blue;
+  }
+
+  .rows {
+    max-width: 100%;
+  }
+}
